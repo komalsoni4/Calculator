@@ -1,0 +1,75 @@
+*{
+    margin :0;
+    padding :0;
+    box-sizing: border-box;
+    /* background-color: rgb(240, 146, 193); */
+}
+body{
+    background-color: rgba(223, 116, 170, 0.781);
+   
+}
+.main_con{
+
+    display:grid;
+    /* justify-content: center; */
+    /* align-content: center; */
+    width:38vw;
+    height: 80vh;
+    margin:auto;
+    margin-top: 10px;
+    background-color: rgb(87, 80, 80);
+    border-radius: 5px;
+    box-shadow:gray 5px 10px;
+    border: 4px rgb(46, 44, 44);
+    z-index: .7;
+}
+.output{
+    width:35vw;
+    height: 30vh;
+    background-color: whitesmoke;
+    border : solid black;
+   margin-top: 4vh;
+   margin-left: 2vw;
+    border-radius: 6px;
+    
+}
+#inputt{
+    width:30vw;
+    height: 23vh;
+    margin-top: 4vh;
+    margin-left:2vw ;
+     border-radius: 6px;
+     background-color: whitesmoke;
+     border: whitesmoke;
+}
+.button{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding :20px;
+    height: 35vh;
+    width:37vw;
+    
+   
+    /* margin-left: 50px; */
+    border-radius: 6px;
+    
+    border:  4px rgb(32, 32, 32);
+    
+}
+.calculator{
+   
+    color: white;
+    text-shadow: grey;
+    width:5vw;
+    height:5vh;
+    text-align: center;
+    justify-content: center;
+    border: solid black;
+    background-color: rgb(73, 71, 71);
+}
+.calculator:hover{
+    background-color: black;
+}
+#inputt{
+    font-size: 34px;
+}
